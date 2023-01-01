@@ -59,6 +59,11 @@ return require('packer').startup(function(use)
     -- git
     use 'airblade/vim-gitgutter'
 
+    -- mini
+    use 'echasnovski/mini.nvim'
+
+    use 'hrsh7th/nvim-cmp'
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
