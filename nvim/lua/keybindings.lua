@@ -48,3 +48,9 @@ local builtin = require('telescope.builtin')
 vim.keymap.set("n", "ff", builtin.find_files, {})
 vim.keymap.set("n", "fg", builtin.live_grep, {})
 
+map("n", "<leader>e", ":NvimTreeToggle<CR>", opt)
+
+map("n", "<TAB>", ":BufferLineCycleNext<CR>", opt)
+map("n", "<S-TAB>", ":BufferLineCyclePrev<CR>", opt)
+
+

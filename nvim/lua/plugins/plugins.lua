@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 
     -- theme
     use 'shaunsingh/nord.nvim'
+    use { "ellisonleao/gruvbox.nvim" }
 
     -- parser
     use {
@@ -33,8 +34,30 @@ return require('packer').startup(function(use)
     }
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
+
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        },
+    }
+
+    use {
+        'akinsho/bufferline.nvim', tag = "v3.*",
+        requires = 'nvim-tree/nvim-web-devicons'
+    }
+
+    -- LSP
+    use 'williamboman/mason.nvim'
+    use 'williamboman/mason-lspconfig.nvim'
+    use 'neovim/nvim-lspconfig'
+
     -- git
-    -- use 'airblade/vim-gitgutter'
+    use 'airblade/vim-gitgutter'
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
