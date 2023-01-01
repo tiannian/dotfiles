@@ -1,0 +1,15 @@
+CocInstall coc-lua
+CocInstall coc-go
+CocInstall coc-json
+CocInstall coc-spell-checker
+CocInstall coc-toml
+CocInstall coc-pairs
+CocInstall coc-tsserver
+CocInstall coc-highlight
+CocInstall coc-git
+CocInstall coc-zi
+CocInstall coc-lists
+CocInstall coc-explorer
+CocInstall coc-rust-analyzer
+CocInstall coc-terminal
+CocInstall coc-restclient
