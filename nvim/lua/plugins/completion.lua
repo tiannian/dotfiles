@@ -13,6 +13,7 @@ cmp.setup {
         { name = 'path' },
         { name = 'nvim_lsp_signature_help' },
         { name = 'rg' },
+        { name = 'treesitter' },
     },
 
     mapping = cmp.mapping.preset.insert({

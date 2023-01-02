@@ -69,7 +69,7 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-omni'
     use 'hrsh7th/cmp-nvim-lsp-signature-help'
 
-
+    use 'ray-x/cmp-treesitter'
 
     use "lukas-reineke/cmp-rg"
 

@@ -6,6 +6,7 @@
 - greetd
 - gtkgreetd
 - gtklock
+- sirula
 
 ## Vim
 
