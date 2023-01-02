@@ -49,12 +49,15 @@ local lsp_flags = {
     debounce_text_changes = 150,
 }
 
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 require('lspconfig')['rust_analyzer'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
     -- Server-specific settings...
     settings = {
         ["rust-analyzer"] = {}
-    }
+    },
+    capabilities = capabilities,
 }
 

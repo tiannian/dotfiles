@@ -62,6 +62,21 @@ return require('packer').startup(function(use)
     -- mini
     use 'echasnovski/mini.nvim'
 
+    use 'hrsh7th/cmp-nvim-lsp' -- { name = nvim_lsp }
+    use 'hrsh7th/cmp-buffer'   -- { name = 'buffer' },
+    use 'hrsh7th/cmp-path'     -- { name = 'path' }
+    use 'hrsh7th/cmp-cmdline'  -- { name = 'cmdline' }
+    use 'hrsh7th/cmp-omni'
+    use 'hrsh7th/cmp-nvim-lsp-signature-help'
+
+
+
+    use "lukas-reineke/cmp-rg"
+
+    use 'hrsh7th/cmp-vsnip'    -- { name = 'vsnip' }
+    use 'hrsh7th/vim-vsnip'
+    use 'rafamadriz/friendly-snippets'
+
     use 'hrsh7th/nvim-cmp'
 
     -- Automatically set up your configuration after cloning packer.nvim

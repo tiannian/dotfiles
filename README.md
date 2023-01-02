@@ -1,7 +1,11 @@
 # My DotFiles
 
-
 ## Sway
+
+- wezterm
+- greetd
+- gtkgreetd
+- gtklock
 
 ## Vim
 
