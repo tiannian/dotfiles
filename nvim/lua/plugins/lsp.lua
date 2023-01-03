@@ -61,3 +61,5 @@ require('lspconfig')['rust_analyzer'].setup{
     capabilities = capabilities,
 }
 
+require("lsp-colors").setup {}
+
