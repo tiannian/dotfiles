@@ -6,9 +6,8 @@
 - greetd
 - gtkgreetd
 - gtklock
-- sirula
 
-## Vim
+## Neovim
 
 ### Requirement
 
