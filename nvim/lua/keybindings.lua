@@ -45,12 +45,19 @@ map("n", "<leader>i", "gg=G", opt)
 
 -- telescope here
 local builtin = require('telescope.builtin')
-vim.keymap.set("n", "ff", builtin.find_files, {})
-vim.keymap.set("n", "fg", builtin.live_grep, {})
+vim.keymap.set("n", ".ff", builtin.find_files, {})
+vim.keymap.set("n", ".fg", builtin.live_grep, {})
 
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opt)
 
 map("n", "<TAB>", ":BufferLineCycleNext<CR>", opt)
 map("n", "<S-TAB>", ":BufferLineCyclePrev<CR>", opt)
+
+map("n", "<leader>xx", "<cmd>TroubleToggle<cr>", opt)
+map("n", "<leader>xw", "<cmd>TroubleToggle workspace_diagnostics<cr>", opt)
+map("n", "<leader>xd", "<cmd>TroubleToggle document_diagnostics<cr>", opt)
+map("n", "<leader>xl", "<cmd>TroubleToggle loclist<cr>", opt)
+map("n", "<leader>xq", "<cmd>TroubleToggle quickfix<cr>", opt)
+map("n", "gR", "<cmd>TroubleToggle lsp_references<cr>", opt)
 
 

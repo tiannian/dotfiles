@@ -14,6 +14,8 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
+    use 'nvim-tree/nvim-web-devicons'
+
     -- theme
     use 'shaunsingh/nord.nvim'
     use { "ellisonleao/gruvbox.nvim" }
@@ -57,11 +59,20 @@ return require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig'
     use 'folke/lsp-colors.nvim'
 
+    use {
+        "folke/trouble.nvim",
+        requires = "nvim-tree/nvim-web-devicons"
+    }
+
+    use 'nvim-lua/plenary.nvim'
+    use 'mfussenegger/nvim-dap'
+
     -- git
     use 'airblade/vim-gitgutter'
 
     -- mini
     use 'echasnovski/mini.nvim'
+    use "lukas-reineke/indent-blankline.nvim"
 
     use 'hrsh7th/cmp-nvim-lsp' -- { name = nvim_lsp }
     use 'hrsh7th/cmp-buffer'   -- { name = 'buffer' },
@@ -79,6 +90,9 @@ return require('packer').startup(function(use)
     use 'rafamadriz/friendly-snippets'
 
     use 'hrsh7th/nvim-cmp'
+
+    -- rust
+    use 'simrat39/rust-tools.nvim'
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

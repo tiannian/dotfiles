@@ -63,3 +63,20 @@ require('lspconfig')['rust_analyzer'].setup{
 
 require("lsp-colors").setup {}
 
+require("trouble").setup {
+    action_keys = {
+        -- open_split = { ".x" },
+        -- open_vsplit = { ".xv" },
+    }
+}
+
+require("rust-tools").setup {
+    server = {
+        settings = {
+            ["rust-analyzer"] = {
+                inlayHints = { locationLinks = false },
+            },
+        },
+    },
+}
+
