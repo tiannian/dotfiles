@@ -9,7 +9,7 @@
 
 ## Neovim
 
-### Requirement
+### Requirements
 
 - gcc or clang
 - ripgrep
