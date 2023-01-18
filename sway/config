@@ -197,7 +197,7 @@ bindsym $mod+r mode "resize"
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-
+    bar swaybar_command waybar
 }
 
-include config.d/*
+include config.d/*.conf
