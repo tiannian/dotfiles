@@ -1,0 +1,17 @@
+theme = "monokai-bg"
+
+[editor]
+true-color = true
+line-number = "relative"
+mouse = false
+cursorline = true
+cursorcolumn = true
+
+[editor.lsp]
+display-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.indent-guides]
+render = true
