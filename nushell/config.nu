@@ -527,6 +527,7 @@ alias l = ^exa
 alias gst = ^git status
 alias gaa = ^git add -A
 alias gc = ^git commit
+alias gp = ^git push
 
 alias hx = ^helix
 
