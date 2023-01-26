@@ -6,6 +6,7 @@ line-number = "relative"
 mouse = false
 cursorline = true
 cursorcolumn = true
+bufferline = "always"
 
 [editor.lsp]
 display-messages = true
@@ -15,3 +16,12 @@ insert = "bar"
 
 [editor.indent-guides]
 render = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+

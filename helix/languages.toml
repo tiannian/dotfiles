@@ -1,0 +1,18 @@
+[[language]]
+name = "rust"
+
+[language.config]
+checkOnSave = { command = "clippy" }
+
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[[language]]
+name = "toml"
+language-server = { command = "" }
+
