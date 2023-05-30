@@ -3,6 +3,7 @@ name = "rust"
 
 [language.config]
 checkOnSave = { command = "clippy" }
+inlayHints.bindingModeHints.enable = true
 
 [language.auto-pairs]
 '(' = ')'
