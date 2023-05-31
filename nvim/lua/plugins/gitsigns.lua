@@ -1,10 +1,10 @@
 function config()
-    require('mini.pairs').setup({})
+    require("gitsigns").setup()
 end
 
 return function(use)
     use({
-        "echasnovski/mini.nvim",
+        'lewis6991/gitsigns.nvim',
         config = config
     })
 end
