@@ -1,4 +1,4 @@
-function config(use)
+return function(use)
     vim.g.mapleader = "."
     vim.g.maplocalleader = "."
 
@@ -32,5 +32,3 @@ function config(use)
     map("n", "<leader>i", "gg=G", opt)
 
 end
-
-return config

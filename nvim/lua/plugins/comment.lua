@@ -1,4 +1,4 @@
-function config()
+local function config()
     require('Comment').setup({
         padding = true,
         sticky = true,

@@ -18,6 +18,7 @@
 - `.fg`: Grep
 - `.fh`: Help Tag
 - `.ft`: TODO
+- `.fn`: Notify
 
 ### Search
 
@@ -39,3 +40,4 @@
 ## TODO
 
 - https://github.com/jbyuki/venn.nvim
+- Fixing of `.fn`
