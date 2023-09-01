@@ -37,6 +37,27 @@
 
 ### Trouble
 
+## Menu
+
+Use `.m` to open Menu.
+
+### Basic
+
+- Format code
+- List Buffer
+- List Grep
+- List File
+- Open Tree
+- List TODO
+- List Notify
+- Undo tree
+
+### Rust
+
+- Runnables
+- Expand Macros
+- Open Cargo.toml
+
 ## TODO
 
 - https://github.com/jbyuki/venn.nvim

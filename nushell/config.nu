@@ -171,7 +171,7 @@ let carapace_completer = {|spans|
 
 
 # The default config record. This is where much of your global configuration is setup.
-let-env config = {
+$env.config = {
   ls: {
     use_ls_colors: true # use the LS_COLORS environment variable to colorize output
     clickable_links: true # enable or disable clickable links. Your terminal has to support links.
@@ -531,3 +531,5 @@ alias gp = ^git push
 
 alias hx = ^helix
 
+
+source /home/tiannian/.config/broot/launcher/nushell/br
