@@ -4,11 +4,11 @@ local function config()
 		sticky = true,
 		toggler = {
 			line = "<leader>/",
-			block = "<leader>//",
+			block = "gb",
 		},
 		opleader = {
 			line = "<leader>/",
-			block = "<leader>//",
+			block = "gb",
 		},
 	})
 end
